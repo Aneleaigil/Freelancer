@@ -242,7 +242,7 @@ font-family:'Lato', sans-serif;;
 .L2{
 position: absolute;
 float: left;
-left:480px;
+left:500px;
 padding-top: 0px;
 /*outline: 1px solid yellow;*/
 margin-bottom: 10px;
@@ -255,10 +255,10 @@ font-family:'Lato', sans-serif;;
 .L3{
 position: absolute;
 float: left;
-left:780px;
-padding-top: 0px;
+left:810px;
+padding-bottom:20px;
 /*outline: 1px solid green;*/
-margin-bottom: 10px;
+margin-bottom:10px;
 text-align: center;
 font-size: 18px;
 font-family:'Lato', sans-serif;;
@@ -268,18 +268,18 @@ font-family:'Lato', sans-serif;;
 .L4{
 position: absolute;
 float: left;
-left: 600px;
+left: 550px;
 margin-top: 200px;
 font-size: 15px;
 font-family:'Lato', sans-serif;;
 }
-/*.circulo-1 {
-     width: 50px;
-     height: 50px;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     border: 2px solid white;
-     outline: 1px solid red;
-     
-}*/
+.fa-facebook, .fa-google-plus, .fa-twitter, .fa-dribbble{
+ width: 45px;
+ height: 45px;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 5px;
+  
+}
