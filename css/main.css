@@ -209,43 +209,77 @@ h2.titulo-4{
 
 }
 footer{
-	background: #212529;
+	background: #2C3E50;
 	color:white;
-	column-count: 3;
-	width: 100%;
+ 	width: 100%;
 	height: 100%;
-	margin-bottom: 30px;
-	padding-top: 30px;
+	padding: 30px;
+	overflow: auto;
+}
 	
-	}
-	.titulos{
-	font-size: 15px;
-	margin-left: 30px ;
-	margin:30  20  10;
-	/*float: left;
-    /*display: inline-block;*/
-    /*overflow: auto;*/
+.titulos{
+	float-left;
+	margin: 2em 2em;
+    display: block;
+    margin: 20px;
+	padding: 10px;
+	height: 240px;
+	
 
-	}
-	.iconos{
-		text-align: center;
-		padding: 100px;
-	}
-
-.titulos h2{
-	font-size: 25px;
-	position: relative;
-	left: 10px;
-	margin-top: 10px;
 }
-/*.titulos p{
-    position: relative;
-    margin-left: 10px;
-}*/
 .L1{
-	width: 350px;
-    float:left;
-    margin-left: 30px;
-    padding-bottom: 0PX;
+position: absolute;
+float: left;
+left:50px;
+padding-top: 0px;
+/*outline: 1px solid red;*/
+margin-bottom: 10px;
+text-align: center;
+font-size: 18px;
+font-family:'Lato', sans-serif;;
+
 }
-.
+.L2{
+position: absolute;
+float: left;
+left:480px;
+padding-top: 0px;
+/*outline: 1px solid yellow;*/
+margin-bottom: 10px;
+text-align: center;
+font-size: 18px;
+font-family:'Lato', sans-serif;;
+
+
+}
+.L3{
+position: absolute;
+float: left;
+left:780px;
+padding-top: 0px;
+/*outline: 1px solid green;*/
+margin-bottom: 10px;
+text-align: center;
+font-size: 18px;
+font-family:'Lato', sans-serif;;
+
+
+}
+.L4{
+position: absolute;
+float: left;
+left: 600px;
+margin-top: 200px;
+font-size: 15px;
+font-family:'Lato', sans-serif;;
+}
+/*.circulo-1 {
+     width: 50px;
+     height: 50px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 2px solid white;
+     outline: 1px solid red;
+     
+}*/
