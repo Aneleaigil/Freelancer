@@ -7,7 +7,7 @@ font-family: 'Lato', sans-serif;*/
 body{
 	margin: 0 auto;
 	padding: 0px;
-	font-family: 'Lato', sans-serif;
+
 }
 
 h2.titulo-1{
@@ -20,8 +20,11 @@ position:relative;
 }
 
 h2{
-font-family: 'Montserrat', sans-serif;
-font-size: 30px;
+	font-family:'Montserrat', sans-serif;
+	/*font-size:50px;
+	margin-bottom: 50px;*/
+	font-weight: bolder;
+
 }
 h1{
 font-family: 'Montserrat', sans-serif;
@@ -31,6 +34,7 @@ text-align: center;
 .titulo-2{
 	font-family:'Montserrat', sans-serif;
 	font-size:30px; 
+	font-style: bold;*/
 }
 header{
 	background: #2c3e50;
@@ -56,7 +60,7 @@ header ul li{
 	height: 100%;
 	background: #18bc9c;
 	color: white;
-	padding: 30px;
+	padding-top:  30px;
 	margin-top:100px;
 }
 .imagen-1{
@@ -64,8 +68,9 @@ header ul li{
 	width: 50%;
 }
 .contenedor-1 imagen-1{
-	width: 20%
+	width: 20%;
 	height:20%;  
+	
 }
 .estrella:before, .estrella:after{
 	content: "";
@@ -79,27 +84,168 @@ header ul li{
 	text-align: center;
 	width: 100%;
 	height: 100%;
+
 }
 .contenedor-2 ul {
 	display: inline-block;
 	text-align: center;
     list-style:none;
    	overflow: auto;
+   	width: 100%;
+
 }
 li img{
-	width: 30%;
+	width: 346px;
+	height: 253px;
 	float: left;
 	margin:10px;
+	margin-left: 50px;
+
 }
 .contenedor-2 .estrella-2:before, .estrella-2:after{
 	content: "";
     display:inline-block;
     border: 3px solid black;
     width:100px;
+    height:100%;
     margin:10px;
 }
 h2.titulo-3{
 	font-family:'Montserrat', sans-serif;
 	font-size:50px;
+	margin-bottom: 30px;
 
 }
+.contenedor-3{
+	background:#18bc9c;
+    margin-top: 50 0  50;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+}
+.contenedor-3 .estrella-3:before, .estrella-3:after{
+	content: "";
+    display:inline-block;
+    border: 3px solid white;
+    width:100px;
+    height:100%;
+    margin:10px;
+    color: white;
+
+}
+h2.titulo-4{
+	font-size: 50px;
+}
+.parrafo{
+	text-align: justify;
+	column-count: 2;
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 30px;
+	display:inline-block;
+}
+.p1{
+	padding-bottom: 1.5%;
+}
+.descarga{
+	border: 1px solid white;
+	width: 15%;
+	color: white;
+    position: relative;
+    left: 42%;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin: 50px  10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.descarga p,.descarga i{
+	display: inline-block;
+	 }
+	 .fa-download{
+	 	border: 2 solid white;
+	 }
+
+.contenedor-4{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	
+	 }
+
+h2.titulo-4{
+	text-align: center;
+}
+
+.contenedor-4 ul{
+    list-style:none;
+    color:#868E96;
+}
+.enviar{
+    
+    background:#18bc9c; 
+    width: 7%;
+    height: 10%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    position: relative;
+    left: 48%;
+    padding: 10px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+
+}
+footer{
+	background: #212529;
+	color:white;
+	column-count: 3;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	
+	}
+	.titulos{
+	font-size: 15px;
+	margin-left: 30px ;
+	margin:30  20  10;
+	/*float: left;
+    /*display: inline-block;*/
+    /*overflow: auto;*/
+
+	}
+	.iconos{
+		text-align: center;
+		padding: 100px;
+	}
+
+.titulos h2{
+	font-size: 25px;
+	position: relative;
+	left: 10px;
+	margin-top: 10px;
+}
+/*.titulos p{
+    position: relative;
+    margin-left: 10px;
+}*/
+.L1{
+	width: 350px;
+    float:left;
+    margin-left: 30px;
+    padding-bottom: 0PX;
+}
+.
